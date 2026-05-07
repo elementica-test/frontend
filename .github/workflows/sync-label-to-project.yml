@@ -15,7 +15,7 @@ name: Sync Priority Label → Project Field
 
 on:
   issues:
-    types: [labeled, unlabeled]
+    types: [edited]
 
   workflow_dispatch:
     inputs:
